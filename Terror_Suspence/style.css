@@ -1,0 +1,40 @@
+body{
+    background-color: darkgray;
+}
+
+.Titulo{
+    margin-top: 79px;	
+    display: flex;
+}
+.cabecario{
+    background-color: dimgrey; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+}
+.Voltar{
+    display: flex;
+    padding-left: 50px;
+    color: aliceblue;
+    font-size: x-large;
+    background-color: black;
+    border-style: ridge;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100px;
+}
+.livro_fundo{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 500px;
+}
+.livros{
+    display: flex;
+}
+.livro_txt{
+    display: block;
+    flex-direction: row;
+
+}

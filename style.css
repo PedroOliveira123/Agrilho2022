@@ -1,0 +1,113 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+body{
+    background-color: #ac7f64
+}
+.livro{
+    margin-top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center{
+    margin-top: 150px;	
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;    
+}
+
+.title{
+    text-align: center;
+    font-family: 'Gabriola';
+    margin-top: 0px;
+    font-size: 50px;   
+}
+.sub_title{
+    text-align: center;
+    text-decoration: underline;
+    color: #99654a;
+}
+.paragrafo{
+    text-align: center;
+}
+
+.topicos > div{
+   margin-top: 10px;
+    background-color:#99654a;
+    border: 9px inset rgba(153, 94, 39, 0.678);
+    border-radius: 5px;
+    
+}
+
+.links{
+    display: flex;
+    color: aliceblue;
+    margin-top: 5px;
+}
+.gambi{
+    min-width: 200px;
+    display: flex;
+    height: 30px;
+    align-items:flex-end ;
+    flex-direction: column;
+    margin-top: auto;
+}
+.livro-ren{
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-top: -400px;
+    left: 100px;
+
+}
+.topicos{
+    display: flex;
+    flex-direction: column;
+    margin-right:10px ;
+    margin-top: -60px;
+}
+.livrinho{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 150px;
+    height: 50px;
+    width: 50px;
+}    
+.livro-fundo{
+    margin-top: 200px;
+    background-color:#99654a;
+    width: 1999px;
+    height: 246px;
+    display: flex;
+    flex-direction: column-reverse;
+    border: 1px inset rgba(153, 94, 39, 0.678);
+    border-radius: 1px;
+    left: 1px;
+}
+.livros{
+    display: block;
+    display: flex;
+    margin-top: 309px;
+    height:250px ;
+    width: 170px;
+}
+.livro-txt{
+    display: block;
+    font-size: large;
+    white-space: nowrap;
+    
+}
+.link-livro{
+    background-color:#99654a;
+    border: 9px inset rgba(153, 94, 39, 0.678);
+    border-radius: 5px;
+    left: 10px;
+}
