@@ -25,16 +25,25 @@ body{
     width: 100px;
 }
 .livro_fundo{
-    margin-top: 100px;
+    margin-top: 200px;
+    background-color:#acacac;
+    width: 1999px;
+    height: 246px;
     display: flex;
-    flex-direction: row;
-    gap: 500px;
+    flex-direction: column-reverse;
+    border: 1px inset rgba(0, 0, 0, 0.678);
+    border-radius: 1px;
+    left: 1px;
 }
 .livros{
     display: flex;
+    margin-top: 309px;
+    height:250px ;
+    width: 170px;
 }
-.livro_txt{
+.livro-txt{
     display: block;
-    flex-direction: row;
-
+    font-size: large;
+    white-space: nowrap;
+    
 }
