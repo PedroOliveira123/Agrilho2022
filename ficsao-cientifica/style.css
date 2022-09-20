@@ -1,0 +1,20 @@
+
+body{
+    background-color: rgb(85, 81, 81);
+}
+.cabecario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 50%;
+    right: 50%;
+}
+.voltar{
+    color: aqua;
+    background-color: black;
+    bottom: auto;
+    border-style: ridge;
+}
+.titulo{
+    color: aqua;
+}

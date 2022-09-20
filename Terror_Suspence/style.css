@@ -8,13 +8,14 @@ body{
 }
 .cabecario{
     background-color: dimgrey; 
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-left: 10px;
 }
 .Voltar{
-    display: flex;
+    position: sticky;
     padding-left: 50px;
     color: aliceblue;
     font-size: x-large;
@@ -26,7 +27,7 @@ body{
 }
 .livro_fundo{
     margin-top: 200px;
-    background-color:#acacac;
+    background-color:dimgray;
     width: 1999px;
     height: 246px;
     display: flex;
@@ -42,8 +43,14 @@ body{
     width: 170px;
 }
 .livro-txt{
+    color: darkgray;
     display: block;
     font-size: large;
     white-space: nowrap;
     
+}
+.link-livro{
+    color: rgb(255, 255, 255);
+    background-color: dimgray;
+    border-radius: 50px;
 }
